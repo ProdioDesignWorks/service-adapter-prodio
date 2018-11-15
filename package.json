@@ -33,7 +33,5 @@
   "author": "Pawan Wagh <pawan@prodio.in> (http://prodio.in/)",
   "license": "ISC",
   "dependencies": {
-    "braintree-connector-prodio": "file:../braintree-connector-prodio/braintree-connector-prodio-1.0.0.tgz",
-    "integrity-connector-prodio": "file:../integrity-connector-prodio/integrity-connector-prodio-1.0.0.tgz"
   }
 }
