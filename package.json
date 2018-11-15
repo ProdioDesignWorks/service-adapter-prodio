@@ -1,5 +1,5 @@
 {
-  "name": "service-juggler-prodio",
+  "name": "service-adapter-prodio",
   "version": "0.0.1",
   "description": "Common interface to all prodio services",
   "main": "lib/index.js",
@@ -32,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ProdioDesignWorks/service-juggler-prodio"
+    "url": "https://github.com/ProdioDesignWorks/service-adapter-prodio"
   },
   "author": "Pawan Wagh <pawan@prodio.in> (http://prodio.in/)",
   "license": "ISC",
