@@ -1,10 +1,11 @@
 import IPayment from './payment-interface';
 import INotification from './notification-interface';
 import Configuration from './configuration';
+import rootDir from './common';
 import fs from 'fs';
 import path from 'path';
 
-export default class Service {
+export class Service {
     constructor(type) {
         this.serviceType = type;
     }
@@ -17,8 +18,9 @@ export default class Service {
 
     readConfig() {
         const service = this.serviceType;
-        const j = `${service}sources.json`
-        const p = path.resolve(__dirname, '..', 'services', j);
+        const j = `${service}sources.json`;
+        const rootPath = rootDir();
+        const p = path.resolve(rootPath, 'services', j);
         if (!fs.existsSync(p)) {
             throw new Error(`${j} does not exists`);
         }
