@@ -1,6 +1,6 @@
 {
   "name": "service-juggler-prodio",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Common interface to all prodio services",
   "main": "lib/index.js",
   "scripts": {
@@ -30,8 +30,11 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-security": "^1.4.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ProdioDesignWorks/service-juggler-prodio"
+  },
   "author": "Pawan Wagh <pawan@prodio.in> (http://prodio.in/)",
   "license": "ISC",
-  "dependencies": {
-  }
+  "dependencies": {}
 }
