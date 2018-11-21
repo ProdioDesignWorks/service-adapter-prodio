@@ -1,5 +1,6 @@
 export default class INotification {
     sendEmail() {
+        console.log("adapter function");
         throw new Error('not yet implemented');
     }
 
