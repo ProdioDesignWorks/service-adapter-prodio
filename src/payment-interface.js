@@ -1,13 +1,13 @@
 export default class IPayment {
-	createMerchant(){
+	createMerchant(payloadJson){
 		throw new Error('Create Merchant not yet implemented');
 	}
 
-	updateMerchant(){
+	updateMerchant(payloadJson){
 		throw new Error('Update Merchant not yet implemented');
 	}
 
-	deleteMerchant(){
+	deleteMerchant(payloadJson){
 		throw new Error('Delete Merchant not yet implemented');
 	}
 }
