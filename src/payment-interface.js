@@ -10,4 +10,28 @@ export default class IPayment {
 	deleteMerchant(payloadJson){
 		throw new Error('Delete Merchant not yet implemented');
 	}
+
+	getMerchantId(payloadJson){
+		throw new Error('getMerchantId not yet implemented');
+	}
+
+	getMerchantActionvationStatus(payloadJson){
+		throw new Error('getMerchantActionvationStatus not yet implemented');
+	}
+
+	getMerchantProfile(payloadJson){
+		throw new Error('getMerchantProfile not yet implemented');
+	}
+
+	createPayer(payloadJson){
+		throw new Error('createPayer not yet implemented');
+	}
+
+	bulkUploadPayers(payloadJson){
+		throw new Error('bulkUploadPayers not yet implemented');
+	}
+
+	createPaymentTransaction(payloadJson){
+		throw new Error('createPaymentTransaction not yet implemented');
+	}
 }
