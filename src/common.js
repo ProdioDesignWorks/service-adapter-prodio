@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 
 export default function rootDir() {
-    return process.mainModule.paths[0].split('node_modules')[0].slice(0, -1)
+    return process.mainModule.paths[0].split('server')[0].slice(0, -1)
 }
 
 /*
