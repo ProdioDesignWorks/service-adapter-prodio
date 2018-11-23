@@ -1,7 +1,6 @@
 export default class INotification {
-    sendEmail() {
-        console.log("adapter function");
-        throw new Error('not yet implemented');
+    sendEmail(payload) {
+        throw new Error('send email not yet implemented');
     }
 
     sendSMS() {
