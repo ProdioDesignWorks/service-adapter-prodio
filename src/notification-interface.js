@@ -3,11 +3,11 @@ export default class INotification {
         throw new Error('send email not yet implemented');
     }
 
-    sendSMS() {
-        throw new Error('not yet implemented');
+    sendAppPushNotification(payload){
+        throw new Error('send push notification not yet implemented');
     }
 
-    createTemplate() {
-        throw new Error('not yet implemented');
+    sendWebPushNotification(payload){
+        throw new Error('send web push notification not yet implemented');
     }
 }
