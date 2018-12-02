@@ -27,11 +27,31 @@ export default class IPayment {
 		throw new Error('createPayer not yet implemented');
 	}
 
+	editPayer(payloadJson){
+		throw new Error('createPayer not yet implemented');
+	}
+	
+	removePayer(payloadJson){
+		throw new Error('createPayer not yet implemented');
+	}
+
 	bulkUploadPayers(payloadJson){
 		throw new Error('bulkUploadPayers not yet implemented');
 	}
 
-	createPaymentTransaction(payloadJson){
-		throw new Error('createPaymentTransaction not yet implemented');
+	makePayment(payloadJson){
+		throw new Error('makePayment not yet implemented');
+	}
+	
+	getPayersTransactions(payloadJson){
+		throw new Error('getPayersTransactions not yet implemented');
+	}
+	
+	saveCardForPayer(payloadJson){
+		throw new Error('saveCardForPayer not yet implemented');
+	}
+
+	removeCard(payloadJson){
+		throw new Error('saveCardForPayer not yet implemented');
 	}
 }
