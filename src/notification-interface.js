@@ -10,4 +10,8 @@ export default class INotification {
     sendWebPushNotification(payload){
         throw new Error('send web push notification not yet implemented');
     }
+
+    sendTransactionalEmail(payload){
+        throw new Error('send transactional emails not yet implemented.');
+    }
 }
