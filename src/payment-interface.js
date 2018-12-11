@@ -54,4 +54,8 @@ export default class IPayment {
 	removeCard(payloadJson){
 		throw new Error('saveCardForPayer not yet implemented');
 	}
+
+	makeDirectPayment(payloadJson){
+		throw new Error('makeDirectPayment not yet implemented');
+	}
 }
