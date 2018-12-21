@@ -58,4 +58,8 @@ export default class IPayment {
 	makeDirectPayment(payloadJson){
 		throw new Error('makeDirectPayment not yet implemented');
 	}
+
+	makeRefund(payloadJson){
+		throw new Error('makeRefund not yet implemented');
+	}
 }
