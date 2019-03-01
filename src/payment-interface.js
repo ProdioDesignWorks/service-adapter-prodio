@@ -62,4 +62,12 @@ export default class IPayment {
 	makeRefund(payloadJson){
 		throw new Error('makeRefund not yet implemented');
 	}
+
+	getOrderDetails(payloadJson){
+		throw new Error('getOrderDetails not yet implemented');
+	}
+
+	verifyCreditCard(payloadJson){
+		throw new Error('verifyCreditCard not yet implemented');
+	}
 }
