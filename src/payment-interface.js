@@ -70,4 +70,8 @@ export default class IPayment {
 	verifyCreditCard(payloadJson){
 		throw new Error('verifyCreditCard not yet implemented');
 	}
+
+	payDirectlyWithSavedCard(payloadJson){
+		throw new Error('payloadJson not yet implemented');
+	}
 }
