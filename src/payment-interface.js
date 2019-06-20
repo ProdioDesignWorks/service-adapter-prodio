@@ -74,4 +74,8 @@ export default class IPayment {
 	payDirectlyWithSavedCard(payloadJson){
 		throw new Error('payloadJson not yet implemented');
 	}
+
+	makeACHPayment(payloadJson){
+		throw new Error('payloadJson not yet implemented');
+	}
 }
