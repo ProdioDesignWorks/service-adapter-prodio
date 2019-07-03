@@ -1,77 +1,83 @@
 export default class IPayment {
-	createMerchant(payloadJson){
+	createMerchant(payloadJson) {
 		throw new Error('Create Merchant not yet implemented');
 	}
 
-	updateMerchant(payloadJson){
+	updateMerchant(payloadJson) {
 		throw new Error('Update Merchant not yet implemented');
 	}
 
-	deleteMerchant(payloadJson){
+	deleteMerchant(payloadJson) {
 		throw new Error('Delete Merchant not yet implemented');
 	}
 
-	getMerchantId(payloadJson){
+	getMerchantId(payloadJson) {
 		throw new Error('getMerchantId not yet implemented');
 	}
 
-	getMerchantActionvationStatus(payloadJson){
+	getMerchantActionvationStatus(payloadJson) {
 		throw new Error('getMerchantActionvationStatus not yet implemented');
 	}
 
-	getMerchantProfile(payloadJson){
+	getMerchantProfile(payloadJson) {
 		throw new Error('getMerchantProfile not yet implemented');
 	}
 
-	createPayer(payloadJson){
+	createPayer(payloadJson) {
 		throw new Error('createPayer not yet implemented');
 	}
 
-	editPayer(payloadJson){
-		throw new Error('createPayer not yet implemented');
-	}
-	
-	removePayer(payloadJson){
+	editPayer(payloadJson) {
 		throw new Error('createPayer not yet implemented');
 	}
 
-	bulkUploadPayers(payloadJson){
+	removePayer(payloadJson) {
+		throw new Error('createPayer not yet implemented');
+	}
+
+	bulkUploadPayers(payloadJson) {
 		throw new Error('bulkUploadPayers not yet implemented');
 	}
 
-	makePayment(payloadJson){
+	makePayment(payloadJson) {
 		throw new Error('makePayment not yet implemented');
 	}
-	
-	getPayersTransactions(payloadJson){
+
+	getPayersTransactions(payloadJson) {
 		throw new Error('getPayersTransactions not yet implemented');
 	}
-	
-	saveCardForPayer(payloadJson){
+
+	saveCardForPayer(payloadJson) {
 		throw new Error('saveCardForPayer not yet implemented');
 	}
 
-	removeCard(payloadJson){
+	removeCard(payloadJson) {
 		throw new Error('saveCardForPayer not yet implemented');
 	}
 
-	makeDirectPayment(payloadJson){
+	makeDirectPayment(payloadJson) {
 		throw new Error('makeDirectPayment not yet implemented');
 	}
 
-	makeRefund(payloadJson){
+	makeRefund(payloadJson) {
 		throw new Error('makeRefund not yet implemented');
 	}
 
-	getOrderDetails(payloadJson){
+	getOrderDetails(payloadJson) {
 		throw new Error('getOrderDetails not yet implemented');
 	}
 
-	verifyCreditCard(payloadJson){
+	verifyCreditCard(payloadJson) {
 		throw new Error('verifyCreditCard not yet implemented');
 	}
 
-	payDirectlyWithSavedCard(payloadJson){
+	payDirectlyWithSavedCard(payloadJson) {
+		throw new Error('payloadJson not yet implemented');
+	}
+	createOrder(payloadJson) {
+		throw new Error('payloadJson not yet implemented');
+	}
+	fetchSingleOrder(payloadJson){
 		throw new Error('payloadJson not yet implemented');
 	}
 }
