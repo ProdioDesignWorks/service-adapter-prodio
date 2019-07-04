@@ -78,4 +78,10 @@ export default class IPayment {
 	makeACHPayment(payloadJson){
 		throw new Error('payloadJson not yet implemented');
 	}
+	createOrder(payloadJson){
+		throw new Error('payloadJson not yet implemented');
+	}
+	fetchSingleOrder(payloadJson){
+		throw new Error('payloadJson not yet implemented');
+	}
 }
