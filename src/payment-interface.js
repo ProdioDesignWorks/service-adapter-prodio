@@ -84,4 +84,7 @@ export default class IPayment {
 	fetchSingleOrder(payloadJson){
 		throw new Error('payloadJson not yet implemented');
 	}
+	capturePayment(payloadJson){
+		throw new Error('payloadJson not yet implemented');
+	}
 }
