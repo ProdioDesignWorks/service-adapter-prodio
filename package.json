@@ -1,6 +1,6 @@
 {
   "name": "service-adapter-prodio",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Common interface to all prodio services",
   "main": "lib/index.js",
   "scripts": {
