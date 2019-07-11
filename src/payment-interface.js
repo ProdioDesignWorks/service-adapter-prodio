@@ -93,4 +93,17 @@ export default class IPayment {
 	capturePayment(payloadJson){
 		throw new Error('payloadJson not yet implemented');
 	}
+	createPlan(payloadJson){
+		throw new Error('create plan not yet implemented');
+	}
+	
+	createPlan(payloadJson){
+		throw new Error('create plan not yet implemented');
+	}
+	subscribePlan(payloadJson){
+		throw new Error('subscribe plan not yet implemented');
+	}
+	webhookProcessor(req) {
+		throw new Error('webhookProcessor not yet implemented')
+	}
 }
