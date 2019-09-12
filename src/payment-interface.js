@@ -84,6 +84,9 @@ export default class IPayment {
 	makeACHPayment(payloadJson){
 		throw new Error('payloadJson not yet implemented');
 	}
+	payDirectWithSaveCardACH(payloadJson){
+		throw new Error('payment with recurring ach');
+	}
 	createOrder(payloadJson){
 		throw new Error('payloadJson not yet implemented');
 	}
