@@ -59,6 +59,10 @@ export default class IPayment {
 		throw new Error('makeDirectPayment not yet implemented');
 	}
 
+	makeMachinePayment(payloadJson) {
+		throw new Error('makeMachinePayment not yet implemented');
+	}
+
 	makeRefund(payloadJson) {
 		throw new Error('makeRefund not yet implemented');
 	}
